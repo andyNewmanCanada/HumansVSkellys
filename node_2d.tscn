@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://fvkdrh071182"]
+
+[ext_resource type="Texture2D" uid="uid://fadb38jhmurk" path="res://Textures/dirt_full_new.png" id="1_wtcfe"]
+
+[node name="world" type="Node2D"]
+
+[node name="background" type="Sprite2D" parent="."]
+texture_filter = 2
+texture_repeat = 2
+texture = ExtResource("1_wtcfe")
+region_enabled = true
+region_rect = Rect2(0, 0, 2000, 2000)
